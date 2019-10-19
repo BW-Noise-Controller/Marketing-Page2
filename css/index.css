@@ -159,3 +159,11 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+.home-main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.home-main-container .main-header {
+  text-align: center;
+  margin: 2rem;
+}
