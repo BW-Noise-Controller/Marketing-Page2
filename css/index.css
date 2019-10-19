@@ -162,6 +162,7 @@ p {
 .home-main-container {
   width: 80%;
   margin: 0 auto;
+  background-color: #bff0ff;
 }
 .home-main-container .main-header {
   text-align: center;
