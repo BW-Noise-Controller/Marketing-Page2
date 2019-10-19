@@ -166,5 +166,6 @@ p {
 }
 .home-main-container .main-header {
   text-align: center;
-  margin: 2rem;
+  margin: 0 2rem;
+  padding-top: 2rem;
 }
