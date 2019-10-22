@@ -84,7 +84,21 @@
     margin-left: 1.75rem;
     background-color: @second-background;
 
-    @media h2 {
+    @media @tablet {
+      .sizing(90%);
+      margin: 0 auto;
+      padding-bottom: 4rem;
+    }
+
+    .side-flex-container {
+      @media @tablet {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+      }
+    }
+
+    h2 {
       font-size: 4rem;
       text-align: center;
       margin: 1.5rem;
@@ -93,6 +107,10 @@
     .devs {
       .display();
       margin: 1rem;
+
+      @media @tablet {
+        .sizing(36%);
+      }
 
       .name {
         font-weight: bold;

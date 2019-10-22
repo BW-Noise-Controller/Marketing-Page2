@@ -379,6 +379,20 @@ p {
   margin-left: 1.75rem;
   background-color: #e7f7ff;
 }
+@media (max-width: 800px) {
+  .about-main-container aside {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+  }
+}
+@media (max-width: 800px) {
+  .about-main-container aside .side-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}
 .about-main-container aside h2 {
   font-size: 4rem;
   text-align: center;
@@ -388,6 +402,11 @@ p {
   display: flex;
   flex-flow: wrap row;
   margin: 1rem;
+}
+@media (max-width: 800px) {
+  .about-main-container aside .devs {
+    width: 36%;
+  }
 }
 .about-main-container aside .devs .name {
   font-weight: bold;
