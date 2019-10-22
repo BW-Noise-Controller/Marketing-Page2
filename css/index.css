@@ -7,7 +7,13 @@
   border-radius: 50%;
   width: 13rem;
   height: 4rem;
+  border: none;
   background-color: #d34039;
+  opacity: 0.85;
+}
+.make-btn:hover {
+  background-color: #39b7d3;
+  color: #d34039;
 }
 html,
 body,
@@ -183,13 +189,16 @@ p {
 }
 .home-main-container .main-header h1 {
   color: #d34039;
-  padding-right: 50rem;
+  padding-right: 47rem;
+  margin-left: 6rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.75;
 }
 .home-main-container .top-content .flex-container {
   display: flex;
   flex-flow: wrap row;
   align-items: center;
-  margin: 3rem;
+  margin: 5rem;
 }
 .home-main-container .top-content img {
   width: 50%;
@@ -205,20 +214,64 @@ p {
   margin-bottom: 3rem;
 }
 .home-main-container .top-content .get-started {
-  margin-left: 5rem;
+  margin-left: 8rem;
+  color: white;
+  border-radius: 50%;
+  width: 13rem;
+  height: 4rem;
+  border: none;
+  background-color: #d34039;
+  opacity: 0.85;
 }
-.home-main-container .top-content .get-started,
+.home-main-container .top-content .get-started:hover {
+  background-color: #39b7d3;
+  color: #d34039;
+}
 .home-main-container .top-content .about-us {
   margin-left: 3rem;
   color: white;
   border-radius: 50%;
   width: 13rem;
   height: 4rem;
-  background-color: #d34039;
   border: none;
+  background-color: #d34039;
+  opacity: 0.85;
 }
-.home-main-container .top-content .get-started:hover,
 .home-main-container .top-content .about-us:hover {
   background-color: #39b7d3;
   color: #d34039;
+}
+.home-main-container .bottom-content {
+  background-color: #e7f7ff;
+  height: 50rem;
+  width: 75%;
+  margin: -9rem auto;
+  position: relative;
+  z-index: 1;
+}
+.home-main-container .bottom-content h2 {
+  line-height: 1.4;
+  padding-top: 3rem;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+.home-main-container .bottom-content h3 {
+  margin-top: 1.5rem;
+}
+.home-main-container .bottom-content .flex-container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
+}
+.home-main-container .bottom-content .cards {
+  margin-top: 5rem;
+  width: 27%;
+  text-align: center;
+}
+.home-main-container .bottom-content .fa-hippo,
+.home-main-container .bottom-content .fa-horse,
+.home-main-container .bottom-content .fa-paw {
+  color: #39b7d3;
+  opacity: 0.3;
 }

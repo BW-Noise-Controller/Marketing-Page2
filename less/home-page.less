@@ -16,7 +16,10 @@
 
     h1 {
       color: @brick-color;
-      padding-right: 50rem;
+      padding-right: 47rem;
+      margin-left: 6rem;
+      margin-bottom: 1.5rem;
+      opacity: 0.75;
     }
   }
   //////////////////////Top Section Content//////////
@@ -24,7 +27,7 @@
     .flex-container {
       .display();
       align-items: center;
-      margin: 3rem;
+      margin: 5rem;
     }
     img {
       width: 50%;
@@ -41,18 +44,51 @@
       margin-bottom: 3rem;
     }
     .get-started {
-      margin-left: 5rem;
+      margin-left: 8rem;
+      .make-btn();
     }
-    .get-started,
     .about-us {
       margin-left: 3rem;
       .make-btn();
-      border: none;
+    }
+  }
 
-      &:hover {
-        background-color: @sky-blue-color;
-        color: @brick-color;
-      }
+  .bottom-content {
+    background-color: @second-background;
+    height: 50rem;
+    width: 75%;
+    margin: -9rem auto;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+      line-height: 1.4;
+      padding-top: 3rem;
+      width: 45%;
+      text-align: center;
+      margin: auto;
+    }
+
+    h3 {
+      margin-top: 1.5rem;
+    }
+
+    .flex-container {
+      .display();
+      justify-content: space-evenly;
+    }
+
+    .cards {
+      margin-top: 5rem;
+      width: 27%;
+      text-align: center;
+    }
+
+    .fa-hippo,
+    .fa-horse,
+    .fa-paw {
+      color: @sky-blue-color;
+      opacity: 0.3;
     }
   }
 }
