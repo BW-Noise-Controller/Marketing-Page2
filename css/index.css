@@ -307,3 +307,19 @@ p {
   margin-bottom: 1.5rem;
   opacity: 0.75;
 }
+.about-main-container .flex-container {
+  display: flex;
+  flex-flow: wrap row;
+  border: solid black 2px;
+}
+.about-main-container .middle-content {
+  width: 50%;
+  border: solid red 2px;
+}
+.about-main-container .side-flex-container {
+  width: 50%;
+  border: solid blue 2px;
+}
+.about-main-container .devs img {
+  width: 100%;
+}
