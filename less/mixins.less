@@ -3,6 +3,10 @@
   flex-flow: wrap row;
 }
 
+.sizing(@size) {
+  width: @size;
+}
+
 .make-btn {
   color: white;
   border-radius: 50%;
@@ -17,7 +21,3 @@
     color: @brick-color;
   }
 }
-
-//Media sizes
-@tablet: ~"(max-width: 800px)";
-@phone: ~"(max-width: 500px)";
