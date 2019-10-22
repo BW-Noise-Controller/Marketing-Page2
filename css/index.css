@@ -327,6 +327,10 @@ p {
 .about-main-container .middle-content p {
   font-size: 2.5rem;
 }
+.about-main-container .middle-content p .take-control {
+  text-decoration: underline;
+  font-weight: bold;
+}
 .about-main-container aside {
   margin-top: 1rem;
   width: 30%;
