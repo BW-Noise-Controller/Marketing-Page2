@@ -1,4 +1,6 @@
 .about-main-container {
+  width: 85%;
+  margin: 0 auto;
   background-color: @main-background;
   //////////Main Header///////////
   .main-header {
@@ -26,23 +28,54 @@
       opacity: 0.75;
     }
   }
-  ////////////////Page flex////////////
+  ////////////////Middle Section////////////
   .flex-container {
     .display();
-    border: solid black 2px;
   }
 
   .middle-content {
-    width: 50%;
-    border: solid red 2px;
-  }
+    margin: 1rem 2rem;
+    width: 65%;
 
-  .side-flex-container {
-    width: 50%;
-    border: solid blue 2px;
-  }
+    img {
+      width: 100%;
+    }
 
-  .devs img {
-    width: 100%;
+    h1 {
+      text-align: center;
+      margin: 2rem 1rem;
+    }
+
+    p {
+      font-size: 2.5rem;
+    }
+  }
+  ///////////////Side Content//////////
+  aside {
+    margin-top: 1rem;
+    width: 30%;
+    margin-left: 1.75rem;
+    background-color: @second-background;
+
+    h2 {
+      font-size: 4rem;
+      text-align: center;
+      margin: 1.5rem;
+    }
+
+    .devs {
+      .display();
+      margin: 1rem;
+
+      .name {
+        font-weight: bold;
+        font-size: 2.15rem;
+      }
+    }
+
+    img {
+      width: 40%;
+      margin-right: 1.3rem;
+    }
   }
 }
