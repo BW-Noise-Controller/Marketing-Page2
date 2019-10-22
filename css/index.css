@@ -260,9 +260,6 @@ p {
   text-align: center;
   margin: auto;
 }
-.home-main-container .bottom-content h3 {
-  margin-top: 1.5rem;
-}
 .home-main-container .bottom-content .flex-container {
   display: flex;
   flex-flow: wrap row;
@@ -274,6 +271,9 @@ p {
   width: 27%;
   text-align: center;
   border-right: solid black 2px;
+}
+.home-main-container .bottom-content .cards h3 {
+  margin-top: 1.5rem;
 }
 .home-main-container .bottom-content .fa-hippo,
 .home-main-container .bottom-content .fa-horse,
