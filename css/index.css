@@ -187,6 +187,10 @@ p {
   padding: 2rem;
   color: white;
 }
+.home-main-container .main-header a:hover {
+  color: #bff0ff;
+  text-decoration: underline;
+}
 .home-main-container .main-header h1 {
   color: #d34039;
   padding-right: 47rem;
@@ -266,8 +270,10 @@ p {
 }
 .home-main-container .bottom-content .cards {
   margin-top: 5rem;
+  padding-right: 2rem;
   width: 27%;
   text-align: center;
+  border-right: solid black 2px;
 }
 .home-main-container .bottom-content .fa-hippo,
 .home-main-container .bottom-content .fa-horse,

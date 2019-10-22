@@ -12,6 +12,11 @@
       text-decoration: none;
       padding: 2rem;
       color: white;
+
+      &:hover {
+        color: @main-background;
+        text-decoration: underline;
+      }
     }
 
     h1 {
@@ -52,7 +57,7 @@
       .make-btn();
     }
   }
-
+  ////////////////////Bottom Content/////////////
   .bottom-content {
     background-color: @second-background;
     height: 50rem;
@@ -80,8 +85,10 @@
 
     .cards {
       margin-top: 5rem;
+      padding-right: 2rem;
       width: 27%;
       text-align: center;
+      border-right: solid black 2px;
     }
 
     .fa-hippo,
