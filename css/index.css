@@ -211,7 +211,7 @@ p {
 .home-main-container .top-content .punch-line {
   order: 1;
   width: 40%;
-  text-algin: center;
+  text-align: center;
 }
 .home-main-container .top-content p {
   font-size: 2rem;
@@ -280,4 +280,30 @@ p {
 .home-main-container .bottom-content .fa-paw {
   color: #39b7d3;
   opacity: 0.3;
+}
+.about-main-container {
+  background-color: #bff0ff;
+}
+.about-main-container .main-header {
+  background-color: #79d339;
+  padding-top: 2rem;
+  display: flex;
+  flex-flow: wrap row;
+}
+.about-main-container .main-header a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 2rem;
+  color: white;
+}
+.about-main-container .main-header a:hover {
+  color: #bff0ff;
+  text-decoration: underline;
+}
+.about-main-container .main-header h1 {
+  color: #d34039;
+  padding-right: 47rem;
+  margin-left: 6rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.75;
 }

@@ -1,2 +1,28 @@
 .about-main-container {
+  background-color: @main-background;
+  .main-header {
+    background-color: @light-grass-color;
+    padding-top: 2rem;
+    .display();
+
+    a {
+      font-size: 2.5rem;
+      text-decoration: none;
+      padding: 2rem;
+      color: white;
+
+      &:hover {
+        color: @main-background;
+        text-decoration: underline;
+      }
+    }
+
+    h1 {
+      color: @brick-color;
+      padding-right: 47rem;
+      margin-left: 6rem;
+      margin-bottom: 1.5rem;
+      opacity: 0.75;
+    }
+  }
 }
