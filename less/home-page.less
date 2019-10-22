@@ -7,6 +7,11 @@
     padding-top: 2rem;
     .display();
 
+    @media @phone {
+      display: block;
+      padding-bottom: 1rem;
+    }
+
     a {
       font-size: 2.5rem;
       text-decoration: none;
@@ -30,6 +35,10 @@
         padding-right: 0;
         margin-left: 2rem;
       }
+
+      @media @phone {
+        text-align: center;
+      }
     }
   }
   //////////////////////Top Section Content//////////
@@ -42,6 +51,11 @@
       @media @tablet {
         margin: 3rem 1rem;
       }
+
+      @media @phone {
+        flex-direction: column;
+        margin: 1rem;
+      }
     }
     img {
       .sizing(50%);
@@ -51,11 +65,20 @@
         margin-right: 1rem;
         .sizing(58%);
       }
+
+      @media @phone {
+        .sizing(100%);
+      }
     }
     .punch-line {
       order: 1;
       .sizing(40%);
       text-align: center;
+
+      @media @phone {
+        .sizing(100%);
+        margin-top: 2rem;
+      }
     }
 
     p {
@@ -82,6 +105,11 @@
       width: 95%;
     }
 
+    @media @phone {
+      margin-top: 3rem;
+      padding-bottom: 5rem;
+    }
+
     h2 {
       line-height: 1.4;
       padding-top: 3rem;
@@ -93,11 +121,19 @@
         padding: 2rem;
         width: 75%;
       }
+
+      @media @phone {
+        .sizing(100%);
+      }
     }
 
     .flex-container {
       .display();
       justify-content: space-evenly;
+
+      @media @phone {
+        flex-direction: column;
+      }
     }
 
     .cards {
@@ -106,6 +142,13 @@
       .sizing(27%);
       text-align: center;
       border-right: solid black 2px;
+
+      @media @phone {
+        .sizing(100%);
+        border-right: none;
+        padding: 2rem;
+        margin-top: 0.5rem;
+      }
 
       h3 {
         margin-top: 1.5rem;
