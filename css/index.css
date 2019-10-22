@@ -180,4 +180,26 @@ p {
 .home-main-container .top-content .flex-container {
   display: flex;
   flex-flow: wrap row;
+  align-items: center;
+  margin: 3rem;
+}
+.home-main-container .top-content img {
+  width: 50%;
+  margin-right: 1rem;
+}
+.home-main-container .top-content .punch-line {
+  order: 1;
+  width: 40%;
+  text-algin: center;
+}
+.home-main-container .top-content p {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.home-main-container .top-content .get-started {
+  margin-left: 5rem;
+}
+.home-main-container .top-content .get-started,
+.home-main-container .top-content .about-us {
+  margin-left: 3rem;
 }
