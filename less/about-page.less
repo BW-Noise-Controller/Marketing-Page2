@@ -2,6 +2,10 @@
   .sizing(85%);
   margin: 0 auto;
   background-color: @main-background;
+
+  @media @tablet {
+    width: 100%;
+  }
   //////////Main Header///////////
   .main-header {
     background-color: @light-grass-color;
@@ -13,6 +17,10 @@
       text-decoration: none;
       padding: 2rem;
       color: white;
+
+      @media @tablet {
+        padding: 1rem;
+      }
 
       &:hover {
         color: @main-background;
@@ -26,6 +34,11 @@
       margin-left: 6rem;
       margin-bottom: 1.5rem;
       opacity: 0.75;
+
+      @media @tablet {
+        padding-right: 0;
+        margin: 0 2rem;
+      }
     }
   }
   ////////////////Middle Section////////////
@@ -37,8 +50,17 @@
     margin: 1rem 2rem;
     .sizing(65%);
 
+    @media @tablet {
+      margin-top: 2rem;
+      .sizing(95%);
+    }
+
     img {
       width: 100%;
+
+      @media @tablet {
+        height: 375px;
+      }
     }
 
     h1 {
@@ -62,7 +84,7 @@
     margin-left: 1.75rem;
     background-color: @second-background;
 
-    h2 {
+    @media h2 {
       font-size: 4rem;
       text-align: center;
       margin: 1.5rem;

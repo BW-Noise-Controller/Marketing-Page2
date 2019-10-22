@@ -250,6 +250,7 @@ p {
 .home-main-container .bottom-content {
   background-color: #e7f7ff;
   width: 75%;
+  padding-bottom: 12rem;
   margin: -9rem auto;
   position: relative;
   z-index: 1;
@@ -300,6 +301,11 @@ p {
   margin: 0 auto;
   background-color: #bff0ff;
 }
+@media (max-width: 800px) {
+  .about-main-container {
+    width: 100%;
+  }
+}
 .about-main-container .main-header {
   background-color: #79d339;
   padding-top: 2rem;
@@ -312,6 +318,11 @@ p {
   padding: 2rem;
   color: white;
 }
+@media (max-width: 800px) {
+  .about-main-container .main-header a {
+    padding: 1rem;
+  }
+}
 .about-main-container .main-header a:hover {
   color: #bff0ff;
   text-decoration: underline;
@@ -323,6 +334,12 @@ p {
   margin-bottom: 1.5rem;
   opacity: 0.75;
 }
+@media (max-width: 800px) {
+  .about-main-container .main-header h1 {
+    padding-right: 0;
+    margin: 0 2rem;
+  }
+}
 .about-main-container .flex-container {
   display: flex;
   flex-flow: wrap row;
@@ -331,8 +348,19 @@ p {
   margin: 1rem 2rem;
   width: 65%;
 }
+@media (max-width: 800px) {
+  .about-main-container .middle-content {
+    margin-top: 2rem;
+    width: 95%;
+  }
+}
 .about-main-container .middle-content img {
   width: 100%;
+}
+@media (max-width: 800px) {
+  .about-main-container .middle-content img {
+    height: 375px;
+  }
 }
 .about-main-container .middle-content h1 {
   text-align: center;
