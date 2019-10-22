@@ -218,7 +218,6 @@ p {
   margin-bottom: 3rem;
 }
 .home-main-container .top-content .get-started {
-  margin-left: 8rem;
   color: white;
   border-radius: 50%;
   width: 13rem;
@@ -228,20 +227,6 @@ p {
   opacity: 0.85;
 }
 .home-main-container .top-content .get-started:hover {
-  background-color: #39b7d3;
-  color: #d34039;
-}
-.home-main-container .top-content .about-us {
-  margin-left: 3rem;
-  color: white;
-  border-radius: 50%;
-  width: 13rem;
-  height: 4rem;
-  border: none;
-  background-color: #d34039;
-  opacity: 0.85;
-}
-.home-main-container .top-content .about-us:hover {
   background-color: #39b7d3;
   color: #d34039;
 }
@@ -304,7 +289,7 @@ p {
 }
 .about-main-container .main-header h1 {
   color: #d34039;
-  padding-right: 47rem;
+  padding-right: 40rem;
   margin-left: 6rem;
   margin-bottom: 1.5rem;
   opacity: 0.75;
