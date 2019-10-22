@@ -1,12 +1,27 @@
 .home-main-container {
   background-color: @main-background;
 
+  /////////////////Main header//////////
   .main-header {
-    text-align: center;
-    margin: 0 2rem;
+    background-color: @light-grass-color;
     padding-top: 2rem;
-  }
+    .display();
 
-  .flex-container {
+    a {
+      font-size: 2.5rem;
+      text-decoration: none;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: @brick-color;
+      padding-right: 50rem;
+    }
+  }
+  //////////////////////Top Section Content//////////
+  .top-content {
+    .flex-container {
+      .display();
+    }
   }
 }

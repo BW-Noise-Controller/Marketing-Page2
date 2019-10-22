@@ -160,12 +160,24 @@ p {
   padding-bottom: 10px;
 }
 .home-main-container {
-  width: 80%;
-  margin: 0 auto;
   background-color: #bff0ff;
 }
 .home-main-container .main-header {
-  text-align: center;
-  margin: 0 2rem;
+  background-color: #79d339;
   padding-top: 2rem;
+  display: flex;
+  flex-flow: wrap row;
+}
+.home-main-container .main-header a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  padding: 2rem;
+}
+.home-main-container .main-header h1 {
+  color: #d34039;
+  padding-right: 50rem;
+}
+.home-main-container .top-content .flex-container {
+  display: flex;
+  flex-flow: wrap row;
 }
