@@ -172,32 +172,29 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
-.home-main-container {
-  background-color: #bff0ff;
-}
-.home-main-container .main-header {
+.main-header {
   background-color: #79d339;
   padding-top: 2rem;
   display: flex;
   flex-flow: wrap row;
 }
 @media (max-width: 500px) {
-  .home-main-container .main-header {
+  .main-header {
     display: block;
     padding-bottom: 1rem;
   }
 }
-.home-main-container .main-header a {
+.main-header a {
   font-size: 2.5rem;
   text-decoration: none;
   padding: 2rem;
   color: white;
 }
-.home-main-container .main-header a:hover {
+.main-header a:hover {
   color: #bff0ff;
   text-decoration: underline;
 }
-.home-main-container .main-header h1 {
+.main-header h1 {
   color: #d34039;
   padding-right: 47rem;
   margin-left: 6rem;
@@ -205,15 +202,18 @@ p {
   opacity: 0.75;
 }
 @media (max-width: 800px) {
-  .home-main-container .main-header h1 {
+  .main-header h1 {
     padding-right: 0;
     margin-left: 2rem;
   }
 }
 @media (max-width: 500px) {
-  .home-main-container .main-header h1 {
+  .main-header h1 {
     text-align: center;
   }
+}
+.home-main-container {
+  background-color: #bff0ff;
 }
 .home-main-container .top-content .flex-container {
   display: flex;
@@ -356,40 +356,6 @@ p {
 @media (max-width: 800px) {
   .about-main-container {
     width: 100%;
-  }
-}
-.about-main-container .main-header {
-  background-color: #79d339;
-  padding-top: 2rem;
-  display: flex;
-  flex-flow: wrap row;
-}
-.about-main-container .main-header a {
-  font-size: 2.5rem;
-  text-decoration: none;
-  padding: 2rem;
-  color: white;
-}
-@media (max-width: 800px) {
-  .about-main-container .main-header a {
-    padding: 1rem;
-  }
-}
-.about-main-container .main-header a:hover {
-  color: #bff0ff;
-  text-decoration: underline;
-}
-.about-main-container .main-header h1 {
-  color: #d34039;
-  padding-right: 40rem;
-  margin-left: 6rem;
-  margin-bottom: 1.5rem;
-  opacity: 0.75;
-}
-@media (max-width: 800px) {
-  .about-main-container .main-header h1 {
-    padding-right: 0;
-    margin: 0 2rem;
   }
 }
 .about-main-container .flex-container {
