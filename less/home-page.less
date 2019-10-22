@@ -11,6 +11,7 @@
       font-size: 2.5rem;
       text-decoration: none;
       padding: 2rem;
+      color: white;
     }
 
     h1 {
@@ -27,7 +28,7 @@
     }
     img {
       width: 50%;
-      margin-right: 1rem;
+      margin-right: 4rem;
     }
     .punch-line {
       order: 1;
@@ -45,6 +46,13 @@
     .get-started,
     .about-us {
       margin-left: 3rem;
+      .make-btn();
+      border: none;
+
+      &:hover {
+        background-color: @sky-blue-color;
+        color: @brick-color;
+      }
     }
   }
 }
