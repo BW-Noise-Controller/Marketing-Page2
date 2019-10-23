@@ -5,15 +5,15 @@
 .make-btn {
   color: white;
   border-radius: 50%;
-  width: 16rem;
+  width: 50%;
   height: 6rem;
   border: none;
   background-color: #d34039;
   opacity: 0.85;
+  font-size: 1.75rem;
 }
 .make-btn:hover {
   background-color: #39b7d3;
-  color: #d34039;
 }
 html,
 body,
@@ -275,15 +275,15 @@ p {
 .home-main-container .top-content .get-started {
   color: white;
   border-radius: 50%;
-  width: 16rem;
+  width: 50%;
   height: 6rem;
   border: none;
   background-color: #d34039;
   opacity: 0.85;
+  font-size: 1.75rem;
 }
 .home-main-container .top-content .get-started:hover {
   background-color: #39b7d3;
-  color: #d34039;
 }
 .home-main-container .bottom-content {
   background-color: #e7f7ff;
