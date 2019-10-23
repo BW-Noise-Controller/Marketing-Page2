@@ -1,5 +1,5 @@
 .about-main-container {
-  .sizing(85%);
+  .sizing(100%);
   margin: 0 auto;
   background-color: @main-background;
 
@@ -14,6 +14,10 @@
   .middle-content {
     margin: 1rem 2rem;
     .sizing(65%);
+
+    @media @desktop {
+      .sizing(55%);
+    }
 
     @media @tablet {
       margin-top: 2rem;
@@ -49,6 +53,11 @@
     margin-left: 1.75rem;
     background-color: @second-background;
 
+    @media @desktop {
+      .sizing(40%);
+      margin-left: 0;
+    }
+
     @media @tablet {
       .sizing(90%);
       margin: 0 auto;
@@ -69,7 +78,6 @@
       margin: 1.5rem;
       text-decoration: underline;
     }
-
     .devs {
       .display();
       margin: 1rem;
@@ -82,10 +90,15 @@
         font-weight: bold;
         font-size: 2.15rem;
       }
+
+      .info {
+        font-weight: bold;
+        font-size: 1.75rem;
+      }
     }
 
     img {
-      .sizing(40%);
+      .sizing(55%);
       margin-right: 1.3rem;
     }
   }
