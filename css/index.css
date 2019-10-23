@@ -376,6 +376,7 @@ p {
 .about-main-container .flex-container {
   display: flex;
   flex-flow: wrap row;
+  justify-content: space-evenly;
 }
 .about-main-container .middle-content {
   margin: 1rem 2rem;
@@ -383,7 +384,7 @@ p {
 }
 @media (max-width:1000px) {
   .about-main-container .middle-content {
-    width: 55%;
+    width: 65%;
   }
 }
 @media (max-width: 800px) {
@@ -413,13 +414,13 @@ p {
 }
 .about-main-container aside {
   margin-top: 1rem;
-  width: 30%;
+  width: 20%;
   margin-left: 1.75rem;
   background-color: #e7f7ff;
 }
 @media (max-width:1000px) {
   .about-main-container aside {
-    width: 40%;
+    width: 30%;
     margin-left: 0;
   }
 }
