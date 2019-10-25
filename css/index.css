@@ -5,12 +5,14 @@
 .make-btn {
   color: white;
   border-radius: 50%;
-  width: 50%;
+  width: 65%;
   height: 6rem;
   border: none;
   background-color: #d34039;
   opacity: 0.85;
-  font-size: 1.75rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
 }
 .make-btn:hover {
   background-color: #39b7d3;
@@ -277,17 +279,20 @@ p {
     margin-bottom: 0;
   }
 }
-.home-main-container .top-content .get-started {
+.home-main-container .top-content .started {
   color: white;
   border-radius: 50%;
-  width: 50%;
+  width: 65%;
   height: 6rem;
   border: none;
   background-color: #d34039;
   opacity: 0.85;
-  font-size: 1.75rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  margin: 0 auto;
 }
-.home-main-container .top-content .get-started:hover {
+.home-main-container .top-content .started:hover {
   background-color: #39b7d3;
 }
 .home-main-container .bottom-content {
