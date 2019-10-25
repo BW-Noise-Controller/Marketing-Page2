@@ -291,9 +291,14 @@ p {
   text-align: center;
   padding-top: 1.5rem;
   margin: 0 auto;
+  text-decoration: none;
 }
 .home-main-container .top-content .started:hover {
   background-color: #39b7d3;
+}
+.home-main-container .top-content a {
+  text-decoration: none;
+  color: white;
 }
 .home-main-container .bottom-content {
   background-color: #e7f7ff;
