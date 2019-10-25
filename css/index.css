@@ -194,6 +194,11 @@ p {
   color: #bff0ff;
   text-decoration: underline;
 }
+@media (max-width: 500px) {
+  .main-header a {
+    padding: 0.75rem;
+  }
+}
 .main-header h1 {
   color: #d34039;
   padding-right: 47rem;
@@ -470,4 +475,9 @@ p {
 .about-main-container aside img {
   width: 55%;
   margin-right: 1.3rem;
+}
+@media (max-width: 500px) {
+  .about-main-container aside img {
+    height: 10rem;
+  }
 }
